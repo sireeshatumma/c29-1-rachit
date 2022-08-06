@@ -56,6 +56,7 @@ function setup() {
     var stone = new Stone(x, y, 80, 80);
     stones.push(stone);
   }
+  rectMode(CENTER);
 }
 
 function draw() {
